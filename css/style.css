@@ -9696,7 +9696,7 @@ a, .btn {
       transform: translateY(-50%); }
 
 .form-control {
-  height: 54px;
+  /* height: 54px; */
   border-color: rgba(0, 0, 0, 0.1);
   background-color: transparent !important;
   margin-bottom: 10px; }
@@ -9932,13 +9932,13 @@ textarea {
         height: 7px;
         display: inline-block;
         border-radius: 50%;
-        background-color: rgba(0, 0, 0, 0.5) !important;
+        background-color: white !important;
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease; }
       .post-slider-wrap .tns-nav button.tns-nav-active:before, .testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
-        background-color: #000 !important;
-        height: 7px; }
+        background-color: white !important;
+        height: 0px; }
 
 .card {
   border: none;
