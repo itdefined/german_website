@@ -9674,8 +9674,8 @@ a, .btn {
     color: #306EE8; }
     .btn.btn-outline-white-reverse:hover {
       background: transparent;
-      border-color: #fff;
-      color: #fff; }
+      border-color:  #306EE9;
+      color:  #306EE9; }
   .btn.btn-black {
     background: #000;
     color: #fff;
