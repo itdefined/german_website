@@ -35,8 +35,21 @@
 
 
 	<title>Horstmann Engineering</title>
+
+
+	<script>
+		function googleTranslateElementInit(){
+			new google.translate.TranslateElement(
+				{pageLanguage: 'en'},
+				'google_translate_element'
+			)
+		};
+	</script>
 </head>
 <body>
+
+<!-- google translator -->
+<div id="google_translate_element"></div>
 
 	<div class="site-mobile-menu site-navbar-target">
 		<div class="site-mobile-menu-header">
@@ -309,5 +322,10 @@
     <script src="js/navbar.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
+
+
+	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+
   </body>
   </html>
